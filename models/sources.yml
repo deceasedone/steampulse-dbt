@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: steam_raw
+    database: steampulse-data-eng
+    schema: steam_raw
+    tables:
+      - name: gcs_raw_json  # <--- Pointing to the External Table (Lake)
